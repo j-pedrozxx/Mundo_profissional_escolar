@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #072318;
+}
+
+header{
+    width:100%;
+    height: 300px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-image: url("pexels-turgay-koca-405356598-15319881.jpg");
+    
+    
+}
+
+
+
+nav{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+   
+   
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 100px;
+    background-color: #e4a441;
+    color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    
+    
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+
+main {
+    padding: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1, h2 {
+    color: #e4a441;
+    background-color: #1a1a1a;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+   
+}
+
+section video {
+    margin-bottom: 20px;
+    display: flex;
+    background-position: center;
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    max-width: 200%;
+   
+   
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #e4a441;
+    text-align: center;
+    padding:10px 0;
+    font-family: "Roboto Condensed", sans-serif;
+   
+    width: 100%;
+    bottom: 0;
+  
+}
+
+#introducao{
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+}
+#custo{
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+}
+#beneficios{
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+}
+#videos{
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+}
